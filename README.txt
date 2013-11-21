@@ -1,4 +1,3 @@
-
 Ftrace V0.2 [ryan.oneill@leviathansecurity.com]
 
 DESCRIPTION:
@@ -96,7 +95,7 @@ FUTURE:
 * Extend heuristics of 64bit procedure prologue calling convention for function args.
 * Add dwarf2 support for .debug section to get function prototype info
 * Port to FreeBSD
-
+* Add support for indirect calls, jmps. 
 
 
 
