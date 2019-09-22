@@ -15,6 +15,10 @@ symbols as well, displaying them as sub_<addr>. As of v0.2, complete control flo
 moving into other branch instructions. Only branch <imm> instructions are currently 
 supported, but will be adding disassembly of branch *<reg> soon. 
 
+ftrace是个很棒的程序，但是我用它处理C++程序时发现其不能工作。 我的想法很简单，跟踪C++程序的执行，而且只跟踪用户的C++函数。
+[uftrace](https://github.com/namhyung/uftrace)也是一个很棒的程序，但是他反馈太多信息，内核函数，库函数，这些
+都不是我想要的，因此我写了ftrace++程序，只用来跟踪用户函数。
+
 
 # COMPILE:
 ```
